@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Sure, You Want to exit?"
+            android:textColor="@color/white"
+            android:textSize="15.0dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rv_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/fl_adplaceholder"
+            android:layout_width="fill_parent"
+            android:layout_height="350.0dip">
+
+        </FrameLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip">
+
+        <Button
+            android:id="@+id/btnCancelDialog"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_weight="1.0"
+            android:text="Yes, Exit"
+            android:textColor="@color/colorAccent"
+            android:textSize="12.0dip" />
+
+        <Button
+            android:id="@+id/btnBackWork"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:layout_weight="1.0"
+            android:text="Back To Apps"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12.0dip" />
+    </LinearLayout>
+</LinearLayout>

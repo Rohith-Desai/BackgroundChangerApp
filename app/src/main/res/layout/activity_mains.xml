@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+
+    <RelativeLayout
+        android:id="@+id/rl_top_kt"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/blue_2">
+
+        <TextView
+            android:id="@+id/btn_back_kt"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10.0dip"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:padding="5.0dip"
+            android:textColor="@color/white"
+            android:onClick="back"
+            android:textSize="16.0dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Image Processing"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16.0dip" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rl_top_kt"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingVertical="20dp"
+            >
+            <Button
+                android:id="@+id/button_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:visibility="gone"
+                android:onClick="getImageFromCamera"/>
+            <ImageView
+                android:id="@+id/main_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="450dp">
+            </ImageView>
+            <TextView
+                android:id="@+id/button_gallery"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Next"
+                android:visibility="gone"
+                android:background="@drawable/share_button_back"
+                android:textColor="@color/white"
+               />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+
+
+

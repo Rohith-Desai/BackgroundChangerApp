@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="app_name">Photo Editor Background Eraser</string>
+    <!-- <string name="app_open_ad">ca-app-pub-4303671294892295/9761840142</string>-->
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <!-- <string name="banner_ad">ca-app-pub-4303671294892295/5699985484</string>-->
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="chip_text">Chip text</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_huawei_services_unknown_issue">Unknown huawei_services</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hms_abort">Stop</string>
+    <string name="hms_abort_message">Stop downloading?</string>
+    <string name="hms_base_google">https://play.google.com/store</string>
+    <string name="hms_base_vmall">https://appgallery.cloud.huawei.com/app/</string>
+    <string name="hms_bindfaildlg_message">%1$s is unable to use Huawei Mobile Services. Launch Optimizer (Phone Manager) or go to Settings, enable all permissions for %2$s (including auto-launch and secondary launch), and try again.</string>
+    <string name="hms_bindfaildlg_title">@string/hms_update_title</string>
+    <string name="hms_cancel">Cancel</string>
+    <string name="hms_check_failure">Failed to check for updates.</string>
+    <string name="hms_check_no_update">Your version is up to date.</string>
+    <string name="hms_checking">Checking for updates…</string>
+    <string name="hms_confirm">OK</string>
+    <string name="hms_download_failure">Failed to download Huawei Mobile Services package.</string>
+    <string name="hms_download_no_space">Not enough free space. Download cannot be completed.</string>
+    <string name="hms_download_retry">Download failed. Try again?</string>
+    <string name="hms_downloading">"Downloading Huawei Mobile Services
+progress: %d%%"</string>
+    <string name="hms_downloading_loading">Downloading</string>
+    <string name="hms_downloading_new">Downloading HMS</string>
+    <string name="hms_gamebox_name">HUAWEI GameCenter</string>
+    <string name="hms_install">Install</string>
+    <string name="hms_install_message">Huawei Mobile Services must be installed to use this feature. Install?</string>
+    <string name="hms_retry">Retry</string>
+    <string name="hms_update">Update</string>
+    <string name="hms_update_continue">Download</string>
+    <string name="hms_update_message">Update to the latest version of Huawei Mobile Services to use this feature. Update now?</string>
+    <string name="hms_update_message_new">"This service requires the latest version of the following app:
+
+%1$s"</string>
+    <string name="hms_update_nettype">No Wi-Fi connection. Download using mobile data?</string>
+    <string name="hms_update_title">Huawei Mobile Services</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <!-- <string name="interstitial_ad">ca-app-pub-4303671294892295/6629923772</string>-->
+    <string name="item_view_role_description">Tab</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_slider_range_end">Range end,</string>
+    <string name="material_slider_range_start">Range start,</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <!--  <string name="native_ad">ca-app-pub-4303671294892295/5316842107</string>-->
+    <string name="offline_notification_text">Tap to open ad</string>
+    <string name="offline_notification_title">View the ad you saved when you were offline</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">"You'll get a notification with the link when you're back online"</string>
+    <string name="offline_opt_in_decline">No thanks</string>
+    <string name="offline_opt_in_message">"We'll send you a notification with a link to the advertiser site."</string>
+    <string name="offline_opt_in_title">"Open ad when you're back online."</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permission_read_storage_rationale">Storage read permission is needed to pick files.</string>
+    <string name="permission_title_rationale">Permission needed</string>
+    <string name="permission_write_storage_rationale">Storage write permission is needed to save the image.</string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="provider">com.hs.photo.background.changer.editor.backgrounderaser.fileprovider</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="search_menu_title">Search</string>
+    <string name="share_text">"I'm using amazing Background Changer and Eraser App! Get the free app at"</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="ucrop_crop">Crop</string>
+    <string name="ucrop_error_input_data_is_absent">Both input and output Uri must be specified</string>
+    <string name="ucrop_label_edit_photo">Edit Photo</string>
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_menu_crop">Crop</string>
+    <string name="ucrop_mutate_exception_hint">Therefore, override color resource (ucrop_color_toolbar_widget) in your app to make it work on pre-L devices</string>
+    <string name="ucrop_rotate">Rotate</string>
+    <string name="ucrop_scale">Scale</string>
+    <string name="upsdk_app_dl_installing">Downloading AppGallery</string>
+    <string name="upsdk_app_download_info_new">Install</string>
+    <string name="upsdk_app_size">Size</string>
+    <string name="upsdk_app_version">Version</string>
+    <string name="upsdk_cancel">Cancel</string>
+    <string name="upsdk_checking_update_prompt">Checking for updates…</string>
+    <string name="upsdk_choice_update">Update available. Please download and install the latest version.</string>
+    <string name="upsdk_connect_server_fail_prompt_toast">Unable to connect to server. Please try again later.</string>
+    <string name="upsdk_detail">Details</string>
+    <string name="upsdk_getting_message_fail_prompt_toast">Unable to retrieve information. Please try again later.</string>
+    <string name="upsdk_install">Install AppGallery to update. Install now?</string>
+    <string name="upsdk_no_available_network_prompt_toast">No Internet connection. Please check your network settings.</string>
+    <string name="upsdk_ota_app_name">App</string>
+    <string name="upsdk_ota_cancel">Later</string>
+    <string name="upsdk_ota_force_cancel_new">Exit</string>
+    <string name="upsdk_ota_notify_updatebtn">Update</string>
+    <string name="upsdk_ota_title">New version</string>
+    <string name="upsdk_storage_utils">%1$s MB</string>
+    <string name="upsdk_store_url">https://store.hispace.hicloud.com/hwmarket/api/</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex">Cancel the installation?</string>
+    <string name="upsdk_third_app_dl_install_failed">Installation failed.</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download">Yes</string>
+    <string name="upsdk_update_check_no_new_version">Your version is up to date.</string>
+    <string name="upsdk_updating">Updating</string>
+    <string name="undoing">undoing</string>
+    <string name="redoing">rendoing</string>
+    <string name="importing_image">Importing image...</string>
+    <string name="import_error">Error while getting image.</string>
+    <string name="processing">processing</string>
+    <string name="error">Error</string>
+    <string name="removing">Auto remove background</string>
+    <string name="tut_ext_msg">Skip Tutorial?</string>
+    <string name="tut_ext_title">Tutorial</string>
+    <string name="tut_msg">Let\'s get you started with a quick tutorial.</string>
+    <string name="tut_title">Tutorial</string>
+    <string name="ok">OK</string>
+    <string name="zoom">zoom</string>
+    <string name="restore">restore</string>
+    <string name="lasso">lasso</string>
+    <string name="auto">auto</string>
+    <string name="erase">erase</string>
+    <string name="import_img_warning">import_img_warning</string>
+    <string name="zoom_pinch">zoom_pinch</string>
+
+    <string name="targate_drag">targate_drag</string>
+    <string name="done">done</string>
+
+    <string name="ok_got_it">OK, Got It</string>
+    <string name="compare_img">- You can also change brush SHAPE.</string>
+    <string name="all_set">You are all set</string>
+    <string name="drag_bw">Drag POINTER to restore image.</string>
+    <string name="drag_color">Drag POINTER to erase.</string>
+    <string name="draw_lasso">Draw a closed path.</string>
+    <string name="cont">Continue</string>
+    <string name="skip">skip</string>
+    <string name="processing_image">processing</string>
+    <string name="suri">suri</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="cancel">cancel</string>
+    <string name="spiral">Spiral</string>
+    <string name="collage">Collage</string>
+    <string name="magic">Magic</string>
+    <string name="edit">Edit</string>
+    <string name="banner_ad_str">Banner Ad</string>
+    <string name="creations">Creations</string>
+    <string name="please_rate_us_5_star">PLEASE RATE US 5 STAR</string>
+    <string name="no_whatsapp_app">No WhatsApp app..</string>
+    <string name="no_instagram_app">No Instagram app..</string>
+    <string name="no_facebook_app">No Facebook app..</string>
+
+    <string name="permission_request_msg">With out permission app won\'t work properly.</string>
+    <string name="permission_request">Permission request.</string>
+    <string name="enter_text">Enter Text..</string>
+    <string name="style">Style :</string>
+    <string name="color">Color :</string>
+    <string name="shadow">Shadow :</string>
+    <string name="neon_photo_editor">Neon Photo Editor</string>
+
+    <string name="set_wall">SET WALLPAPER</string>
+    <string name="lockscreen_text">SET LOCK SCREEN</string>
+    <string name="both_text">SET BOTH</string>
+    <string name="what_would_like_to_do">What would you like to do?</string>
+    <string name="lets_start">Let\'s Start</string>
+    <string name="loading_ads_please_wait">Loading Ads...please wait</string>
+
+
+    <!--test ad id's-->
+    <!--<string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_on_mainscreen">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_on_launch_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_ad_on_mainhome">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="admob_reward_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_app_open">ca-app-pub-3940256099942544/3419835294</string>-->
+
+
+    <!-- <string name="banner_ad_on_cropscreen">ca-app-pub-3940256099942544/6300978111</string>
+     <string name="banner_ad_on_editscreen">ca-app-pub-3940256099942544/6300978111</string>
+     <string name="banner_ad_on_erasescreen">ca-app-pub-3940256099942544/6300978111</string>
+     <string name="banner_ad_on_savescreen">ca-app-pub-3940256099942544/6300978111</string>
+     <string name="banner_ad_on_galleryscreen">ca-app-pub-3940256099942544/6300978111</string>
+     <string name="banner_ad_on_erasebg">ca-app-pub-3940256099942544/6300978111</string>
+     <string name="banner_ad_on_creations">ca-app-pub-3940256099942544/6300978111</string>
+
+     <string name="admob_save_screen_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+
+     <string name="native_ad_on_bottomsheet">ca-app-pub-3940256099942544/2247696110</string>
+     <string name="native_ad_on_categories">ca-app-pub-3940256099942544/2247696110</string>
+     <string name="native_ad_on_savescreen">ca-app-pub-3940256099942544/2247696110</string>-->
+
+
+    <string name="loading">Loading...</string>
+    <string name="appfeedback">App Feedback</string>
+    <string name="appfeedback_text">Please give us your feedback we will improve</string>
+    <string name="eraser">Eraser</string>
+    <string name="eraser_background_photo">Erase the background of your photo</string>
+    <string name="editor">Editor</string>
+    <string name="edit_your_photo">Edit your photo with attractive backgrounds</string>
+    <string name="mix_your_photos">Mix your photos in unique way</string>
+    <string name="save_photo">Save</string>
+    <string name="add_background">Add Background</string>
+    <string name="background_remover">Background Remover</string>
+
+    <string name="facebook_app_id">449781070432052</string>
+    <string name="fb_login_protocol_scheme">fb449781070432052</string>
+    <string name="facebook_client_token">2edccb28508ec9ef43dc6b136e66ce96</string>
+    <string name="toast_text">Please Select the photo which contains human faces and photo is in portrait mode </string>
+
+    <!--real time ad id's-->
+    <string name="admob_app_id">ca-app-pub-9569880823887785~8889550055</string>
+    <string name="banner_ad_on_mainscreen">ca-app-pub-9569880823887785/1484852698</string>
+    <string name="admob_on_launch_interstitial_id">ca-app-pub-9569880823887785/3254079996</string>
+    <string name="native_ad_on_mainhome">ca-app-pub-9569880823887785/5979273079</string>
+    <string name="admob_reward_id">ca-app-pub-9569880823887785/2975298226</string>
+    <string name="admob_app_open">ca-app-pub-9569880823887785/6162464304</string>
+
+
+    <!--  <string name="banner_ad_on_cropscreen">ca-app-pub-9569880823887785/3991486138</string>
+      <string name="banner_ad_on_editscreen">ca-app-pub-9569880823887785/7739159457</string>
+      <string name="banner_ad_on_erasescreen">ca-app-pub-9569880823887785/3807653303</string>
+      <string name="banner_ad_on_savescreen">ca-app-pub-9569880823887785/2295261085</string>
+      <string name="banner_ad_on_galleryscreen">ca-app-pub-9569880823887785/7555326625</string>
+      <string name="banner_ad_on_erasebg">ca-app-pub-9569880823887785/1273741304</string>
+      <string name="banner_ad_on_creations">ca-app-pub-9569880823887785/8577516256</string>
+
+      <string name="admob_save_screen_interstitial_id">ca-app-pub-9569880823887785/9262046576</string>
+
+      <string name="native_ad_on_bottomsheet">ca-app-pub-9569880823887785/1204816942</string>
+      <string name="native_ad_on_categories">ca-app-pub-9569880823887785/2842055995</string>
+      <string name="native_ad_on_savescreen">ca-app-pub-9569880823887785/2594907315</string>-->
+
+
+    <!--Admob IDs
+
+    App ID: ca-app-pub-9569880823887785~8889550055
+
+  1)Banner ad
+a)banner ad on mainscreen: ca-app-pub-9569880823887785/1484852698
+b)banner ad on cropscreen: ca-app-pub-9569880823887785/3991486138
+c)banner ad on  editscreen: ca-app-pub-9569880823887785/7739159457
+d)banner ad on erasescreen: ca-app-pub-9569880823887785/3807653303
+e)banner ad on savescreen: ca-app-pub-9569880823887785/2295261085
+f)banner ad  on galleryscreen: ca-app-pub-9569880823887785/7555326625
+2)Interstitial ad
+a)interstitial ad on launch: ca-app-pub-9569880823887785/3254079996
+b)interstitial ad on save: ca-app-pub-9569880823887785/9262046576
+
+3)Native ad
+
+a)native ad on bottomsheet: ca-app-pub-9569880823887785/1204816942
+b)native ad on categories: ca-app-pub-9569880823887785/2842055995
+c)native ad on savescreen: ca-app-pub-9569880823887785/2594907315
+
+4)App open ad : ca-app-pub-9569880823887785/6162464304
+
+
+APP ID: ca-app-pub-9569880823887785~8889550055
+Rewarded ad new ca-app-pub-9569880823887785/2975298226
+
+Native ad on Main: ca-app-pub-9569880823887785/5979273079
+Reward on List: ca-app-pub-9569880823887785/6909211364
+BANNER on ERASE BG: ca-app-pub-9569880823887785/1273741304
+BANNER on CREATIONS: ca-app-pub-9569880823887785/8577516256
+-->
+
+</resources>

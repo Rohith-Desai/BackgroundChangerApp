@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:textSize="16sp"
+    android:textColor="@color/white"
+    android:text="nature"
+    android:id="@+id/tab_new"
+    android:background="@drawable/ic_selected_tab_back"
+    >
+
+</TextView>

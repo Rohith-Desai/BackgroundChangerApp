@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_top_main"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/blue_2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16.0dip" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/rl_top_main"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:id="@+id/galleryContainer"
+
+                    app:cardCornerRadius="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:background="@drawable/gallery_back_design"
+                        android:layout_height="100dp">
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/gallery_circle_back"
+                            android:src="@drawable/gallery_main"
+                            android:padding="10dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            >
+                        </ImageView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Gallery"
+                                android:textSize="20sp"
+                                android:textColor="@color/black">
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Select Photo"
+                                android:textColor="@color/black"
+                                android:textSize="15sp">
+                            </TextView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:id="@+id/cameraContainer"
+                    app:cardCornerRadius="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:background="@drawable/camera_back_design"
+                        android:layout_height="100dp">
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/circle_camera_back"
+                            android:src="@drawable/camera"
+                            android:padding="10dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            >
+                        </ImageView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Camera"
+                                android:textSize="20sp"
+                                android:textColor="@color/black">
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Capture image"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/black"
+                                android:textSize="15sp">
+                            </TextView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:id="@+id/recentContainer"
+                    app:cardCornerRadius="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:background="@drawable/mysave_back_design"
+                        android:layout_height="100dp">
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/mysave_cirlce_back"
+                            android:src="@drawable/crop"
+                            android:padding="10dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            >
+                        </ImageView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Your Creation"
+                                android:textSize="20sp"
+                                android:textColor="@color/black">
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Collection of your creations"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/black"
+                                android:textSize="15sp">
+                            </TextView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/rating_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="PLEASE RATE US 5 STAR"
+                    android:textAlignment="center"
+                    android:textColor="@color/light_black"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/starOne"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/star_outline" />
+
+                    <ImageView
+                        android:id="@+id/starTwo"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/star_outline" />
+
+                    <ImageView
+                        android:id="@+id/starThree"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/star_outline" />
+
+                    <ImageView
+                        android:id="@+id/starFour"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/star_outline" />
+
+                    <ImageView
+                        android:id="@+id/starFive"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/star_outline" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+   <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="60.0dip">
+
+        <ImageView
+            android:id="@+id/img_share"
+            android:layout_width="0.0dip"
+            android:layout_height="45.0dip"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:src="@drawable/share_btn"
+            app:tint="#ff44a8ff" />
+
+        <TextView
+            android:id="@+id/txt_privacy_policy"
+            android:layout_width="0.0dip"
+            android:layout_height="45.0dip"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="Privacy Policy"
+            android:textColor="@color/white"
+            android:textSize="14.0dip"
+            android:textStyle="italic"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_rate"
+            android:layout_width="0.0dip"
+            android:layout_height="45.0dip"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:src="@drawable/rate_btn"
+            app:tint="#fff9a341" />
+    </LinearLayout>-->
+
+
+
+   <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_margin="10.0dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_margin="5.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/button_1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/came_btn"
+                    app:tint="#ff30c2f5" />
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_margin="5.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/button_3">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/save_btn"
+                    app:tint="#ffaf74f9" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_margin="5.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/button_2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/gallery_btn"
+                    app:tint="#ff74f374" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_more_app"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_margin="5.0dip"
+                android:layout_weight="0.7"
+                android:background="@drawable/button_4">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/moreapp_btn"
+                    app:tint="#ffff3479" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>-->
+
+
+
+</RelativeLayout>

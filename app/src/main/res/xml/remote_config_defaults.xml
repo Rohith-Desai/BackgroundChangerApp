@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+   <!-- <entry>
+        <key>firebase_remote_config</key>
+        <value>{
+            "upgradeAppVersion": "1",
+            "showInterstitialOnLaunch": "false",
+            "showInterstitialOnExit": "false",
+            "showInterstitialAd": "false",
+            "InterstitialOnlyGoogle": "false",
+            "InterstitialOnlyFB": "false",
+            "AdRotationPolicy": "false",
+            "AdRotationPolicyNative": "false",
+            "showNativeAd": "false",
+            "showNativeAdOnMainScreen": "false",
+            "NativeOnlyGoogle": "false",
+            "NativeOnlyFB": "false",
+            "showOurAppInterstitials": "false",
+            "OurApps": "false",
+            "singleFramesCount": "0",
+            "greetingCardsCount": "0",
+            "allFramesCount": "0",
+            "singleFrames": "",
+            "doubleFrames": "",
+            "doubleThumbs": "",
+            "greetingCards": "",
+            "shapesFrames": "",
+            "trendingSingleFrames": "",
+            "trendingSingleThumbs": "",
+            "trendingDoubleFrames": "",
+            "trendingDoubleThumbs": "",
+            "trendingGreetingCards": "",
+            "trendingGreetingThumbs": "",
+            "enableIAPflag": "false"
+            }
+
+        </value>
+    </entry>-->
+    <entry>
+        <key>upgradeAppVersion</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>showInterstitialOnLaunch</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>showInterstitialAd</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>showNativeAd</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>showNativeAdOnMainScreen</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>enableIAPflag</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>showBannerAd</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>natureUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>fantasyUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>flowerUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>birthdayUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>neonUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>natureCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>fantasyCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>flowerCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>birthdayCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>neonCount</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>animalUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>anniversaryUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>birdUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>cityUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>fireUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>loveUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>sunsetUrl</key>
+        <value>""</value>
+    </entry>
+    <entry>
+        <key>animalCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>anniversaryCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>birdCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>cityCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>fireCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>loveCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>sunsetCount</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>showInterstitialOnSave</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>enableRewardAfter</key>
+        <value>0</value>
+    </entry>
+</defaultsMap>

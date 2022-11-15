@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1064119893401",
+    "project_id": "bg-changer-and-eraser",
+    "storage_bucket": "bg-changer-and-eraser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064119893401:android:42383997856dbcd63ce708",
+        "android_client_info": {
+          "package_name": "com.hs.photo.background.changer.editor.backgrounderaser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064119893401-c16b603k73vvn6589gl14rqrlcskgfi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCULhVTt4be45xJ-gY-1qBkpTf2Fx9uEgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064119893401-c16b603k73vvn6589gl14rqrlcskgfi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

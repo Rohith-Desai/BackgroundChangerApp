@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context=".activity.CreationsActivity">
+
+    <!--  <FrameLayout
+          android:id="@+id/creation_banner_ad_neww"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/banner_ad_dummy"
+          android:layout_alignParentTop="true"/>-->
+
+    <FrameLayout
+        android:id="@+id/banner_ad_creations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/banner_ad_dummy" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/gallery_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#292929"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:tabIndicatorColor="@color/orange"
+        app:tabTextColor="@color/white" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/gallery_designs_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/banner_ad_creations"
+        android:layout_below="@+id/gallery_tabLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-1dp" />
+
+</RelativeLayout>
