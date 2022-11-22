@@ -201,44 +201,6 @@ public class BackgroundnewActvity extends BaseActivity implements NatureFragment
         setContentView(R.layout.activity_backgroundnew_actvity);
 
         this.pDialog = new ProgressDialog(this);
-       /* nback.clear();
-        nback.add(R.drawable.bird_b1);
-        nback.add(R.drawable.bird_b2);
-        nback.add(R.drawable.birthday_b1);
-        nback.add(R.drawable.birthday_b2);
-        nback.add(R.drawable.car_b1);
-        nback.add(R.drawable.car_b2);
-        nback.add(R.drawable.city_b1);
-        nback.add(R.drawable.city_b2);
-        nback.add(R.drawable.drip_b1);
-        nback.add(R.drawable.drip_b2);
-        nback.add(R.drawable.fantasy_b1);
-        nback.add(R.drawable.fantasy_b2);
-        nback.add(R.drawable.fire_b1);
-        nback.add(R.drawable.fire_b2);
-        nback.add(R.drawable.flower_b1);
-        nback.add(R.drawable.flower_b2);
-        nback.add(R.drawable.frames_b1);
-        nback.add(R.drawable.frames_b2);
-        nfore.clear();
-        nfore.add(R.drawable.bird_f1);
-        nfore.add(R.drawable.bird_f2);
-        nfore.add(R.drawable.birthday_f1);
-        nfore.add(R.drawable.birthday_f2);
-        nfore.add(R.drawable.car_f1);
-        nfore.add(R.drawable.car_f2);
-        nfore.add(R.drawable.city_f1);
-        nfore.add(R.drawable.city_f2);
-        nfore.add(R.drawable.drip_f1);
-        nfore.add(R.drawable.drip_f2);
-        nfore.add(R.drawable.fantasy_f1);
-        nfore.add(R.drawable.fantasy_f2);
-        nfore.add(R.drawable.fire_f1);
-        nfore.add(R.drawable.fire_f2);
-        nfore.add(R.drawable.flower_f1);
-        nfore.add(R.drawable.flower_f2);
-        nfore.add(R.drawable.frames_f1);
-        nfore.add(R.drawable.frames_f2);*/
 
         Bundle bundle = new Bundle();
         bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "BackgroundnewActivity");
@@ -6114,6 +6076,7 @@ public class BackgroundnewActvity extends BaseActivity implements NatureFragment
 
         @Override
         public CharSequence getPageTitle(int position) {
+
             return mFragmentTitleList.get(position);
         }
     }
